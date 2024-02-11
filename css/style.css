@@ -593,7 +593,7 @@ footer {
     }
     
     .home{
-        background-image: url('/images/bg.png');
+        background-image: url('/bg.jpg');
         background-size: cover;
         background-attachment: fixed;
         padding: 30px;
