@@ -759,34 +759,41 @@ footer {
 }
 
 @media screen and (max-width:768px){
-
-    .header-content h1{font-size: 40px;}
-	.header-content p{font-size: 1rem;}
-
     html{
-        font-size: 50%;
-    }
-
-    .home .content h1{
-        font-size: 3rem;
+        font-size: 45%;
 
     }
-    .slide-content{
-        margin: 0 10px;
-      }
-      .swiper-navBtn{
-        display: none;
-      }
-
     
-  
-
 }
   
 @media screen and (max-width:430px){
     html{
         font-size: 48%;
     }
+    .home{
+        height: 100vh;
+    }
+
+    .home .content h1{
+        font-size: 2.5rem;
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    .home .content p{
+        font-size: 1.3rem;
+        margin-left: 15px;
+    }
+    .home .wrap .content .home-btn{
+        background-color: #FEF8EA;
+        color: #105D8C;
+        border: none;
+        border-radius: 40px;
+        padding: 10px 40px 12px 40px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-left: 45px;
+    }
+    
     .home .wrap .girl img{
         display: block;
         margin-top: 0px;
