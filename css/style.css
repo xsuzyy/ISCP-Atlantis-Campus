@@ -167,8 +167,6 @@ header.sticky a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
-    padding: auto;
 }
 .home .wrap .content{
     text-align: left;
@@ -651,8 +649,8 @@ footer {
         color: #FEF8EA;
         border: none;
         border-radius: 40px; /* Adjust the border-radius for roundness */
-        padding: 10px 30px 10px 30px;
-        font-size: 12px;
+        padding: 8px 20px 8px 20px;
+        font-size: 8px;
         cursor: pointer;
         transition: background-color 0.3s;
         margin-top: -100px;
@@ -707,54 +705,23 @@ footer {
         padding: 0;
         margin-right:0px;
         margin-top: 30px;
-        margin-left: 140px;
+        margin-left: 120px;
       }
       .right{
         margin-right: 0px;
       }
 
-
-
-    .course .row .content{
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    .course .row .image{
-        margin-left: 0px;
-    }
-    .course .row .image img{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 100%;
-        height: 100%;
-    }
+        .abt{
+            height: 100vh;
+        }
         .abt .row .image img{
-            margin-top: 0px;
-            margin-bottom: -30px;
-            width: 100%;
-            height: 100%;
+            margin-top: -50px;
+            width: 90%;
+            height: 90%;
             margin-right: 0px;
+
         }
-        .abt .content h1{
-            font-size: 4.5rem;  
-            
-            color: var(--yellow1);
-        }
-        .abt .content h2{
-            font-size: 3.5rem;  
-    
-            color: var(--yellow1);
-        }
-        .abt .content p{
-            font-size: 2.0rem;  
-            color: var(--yellow1);
-        }
-        .slide-container{
-            width: 100%;
-          }
-        
-    
-    
+
 
 }
 
