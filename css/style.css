@@ -126,7 +126,7 @@ header .navbar a{
 }
 
 header.sticky{
-    background-image: url('/images/bg.png');
+    background-image: url('/bg.png');
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -142,7 +142,7 @@ header.sticky a{
 /* home */
 
 .home{
-    background-image: url('/images/bg.png');
+    background-image: url('/bg.png');
     background-size: cover;
     background-attachment: fixed;
     padding: 100px;
