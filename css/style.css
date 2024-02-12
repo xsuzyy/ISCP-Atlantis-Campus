@@ -538,12 +538,12 @@ header.sticky{
     top:0; left:0;
     z-index: 1000;
     padding:2rem;
-    background-image: url('bg.png');
+    background-image: url('/images/bg.png');
     background-size: cover;
     background-attachment: fixed;
 }
 header.sticky{
-    background-image: url('bg.png');
+    background-image: url('/images/bg.png');
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -554,8 +554,6 @@ header.sticky{
     padding: 100px;
     color: #000;
     position: relative;
-    z-index: 999;
-    height: 100vh;
     color: rgba(16, 93, 140, 1);
     background-color:#FEF8EA; 
 }
@@ -570,20 +568,14 @@ header.sticky{
 .slide-container{
     max-width: 1500px;
     padding: 30px 0;
+    padding: 30px 0;
   }
-  .slide-content{
+  .slide-content{ 
     margin: 0 300px;
   }
   .card{
     border-radius: 0px;
     background-color: rgba(16, 93, 140, 1);
-  }
-  .image-content,
-  .card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
   }
   .overlay::after{
     border-radius: 0 25px 0 0;
@@ -972,10 +964,14 @@ footer {
             margin: 0px;
             padding: 0;
             text-align: center;
+            margin-top: 150px;
         }
          .slide-container{
             width: 100%;
           }
+          .tales-home{
+            padding: 0px;
+        }
         
 
 }
