@@ -1,29 +1,43 @@
-var swiper = new Swiper(".slide-content", {
-    slidesPerView: 1,
-    spaceBetween: 25,
-    loop: true,
-    centerSlide: 'true',
-    fade: 'true',
-    grabCursor: 'true',
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+const swiper = new Swiper(".swiper-slider", {
+  // Optional parameters
+  centeredSlides: true,
+  slidesPerView: 1,
+  grabCursor: true,
+  freeMode: false,
+  loop: true,
+  mousewheel: false,
+  keyboard: {
+    enabled: true
+  },
 
-    breakpoints:{
-        0: {
-            slidesPerView: 1,
-        },
-        520: {
-            slidesPerView: 1,
-        },
-        950: {
-            slidesPerView: 1,
-        },
+  // Enabled autoplay mode
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: false,
+    clickable: true
+  },
+
+  // If we need navigation
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 2
     },
-  });
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    }
+  }
+});
